@@ -1,0 +1,14 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Node modules (in case of JS project in future)
+node_modules/
+
+# Environment files (if you use them later)
+.env
