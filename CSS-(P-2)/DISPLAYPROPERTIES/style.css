@@ -1,0 +1,74 @@
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 165, 255);
+    text-align: center;
+    text-decoration: underline;
+    /* border: solid #000000 3px;
+    border-width: 2px;
+     */
+    margin: 40px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstPara {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ff9500;
+    border: solid #000000 3px;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    /* margin: 40px; */
+      margin: 20px 30px 40px 80px;
+}
+
+.secondPara{
+    background-color: #5dff27;
+     border: solid #000000 3px;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    /* margin: 40px; */
+    margin: 20px 30px 40px 80px;
+}
+
+.thirdPara{
+    background-color: #e1671b;
+     border: solid #000000 3px;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    /* margin: 40px; */
+      margin: 20px 30px 40px 80px;
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid #ff9d01b8 5px;
+    width: 20px 40px 50px 60px;
+    height: 20px;
+    margin: 30px;
+    padding: 40px;
+}
+
+*{
+    margin: 40px;
+    padding: 40px;
+    /* height: 0px; */
+}
+
+span {
+    border: #000000 solid 2px;
+    /* width: max-content;
+    height: fit-content; */
+    /* padding: 0%;
+    margin: 120px 80px 80px 90px; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+}

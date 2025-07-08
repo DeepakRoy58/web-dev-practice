@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        :root{
+            --primary-color: rgb(66, 66, 190);
+            --custom-width:520px;
+        }
+
+       h1,div{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+       h1{
+        text-align: center;
+        text-decoration: underline;
+        color: rgba(255, 64, 0, 0.879);
+        /* justify-content: right; */
+        text-shadow:1px #FC0 ;
+       }
+    
+       .container{
+        background-color: #7300ff;
+        height: 650px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       }
+
+       .box{
+        --primary-color: rgb(66, 66, 190);
+        --custom-width:520px;
+        background-color: #ffff00;
+        width: var(--custom-width);
+        height: 500px;
+        border: 1px solid var(--primary-color);
+        margin: 5px;
+        padding: 5px;
+        box-shadow: 10px 15px 5px rgb(0, 0, 0);
+        
+    }
+
+    p{
+        border: solid 2px black;
+        width: fit-content;
+        word-spacing: 1px;
+        background-color: #fff;
+        
+    }
+
+    button{
+        width: fit-content;
+        background-color: #ffff00;
+        cursor: pointer;
+        justify-content: center;
+        /* display: flex;
+        text-align: center; */
+    }
+
+    #Heading2{
+        text-shadow:  2px 4px 9px rgb(70, 70, 255);
+           /* text-shadow: 1px 1px 2px black,
+                        0 0 1em blue,
+                        0 0 0.2em blue,
+           color: white;
+           
+           font:  1.5rem  sans-serif;
+  */
+    }
+
+    </style>
+</head>
+<body>
+     <h1>THIS IS AN EXERCISE TO LEARN CSS SHADOW EFFECTS</h1>
+
+    <!-- code execute -->
+    <div class="container">
+
+        <div class="box">
+            <img src="/CSS-(P-2)/images/Screenshot from 2025-06-27 15-51-27.png" alt="">
+            
+            <h2 id="Heading2">This was crafted by The Unknown Developer</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur 
+               adipisicing elit. Voluptates reprehenderit 
+               aspernatur tempora natus mollitia officiis 
+               quam quis rem, explicabo praesentium nam eos
+               necessitatibus autem amet?
+            </p>
+
+        </div>
+    </div>
+
+    <button type="submit">Submit Here</button>
+
+</body>
+</html>

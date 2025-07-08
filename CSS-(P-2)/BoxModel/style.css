@@ -1,0 +1,46 @@
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 165, 255);
+    text-align: center;
+    text-decoration: underline;
+    /* border: solid #000000 3px;
+    border-width: 2px;
+     */
+    margin: 40px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstPara {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ff9500;
+    border: solid #000000 3px;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    /* margin: 40px; */
+      margin: 20px 30px 40px 80px;
+}
+
+.secondPara{
+    background-color: #5dff27;
+     border: solid #000000 3px;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    /* margin: 40px; */
+    margin: 20px 30px 40px 80px;
+}
+
+.thirdPara{
+    background-color: #e1671b;
+     border: solid #000000 3px;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    /* margin: 40px; */
+      margin: 20px 30px 40px 80px;
+}

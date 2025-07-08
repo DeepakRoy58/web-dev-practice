@@ -1,0 +1,26 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    width:  200px;
+    height: 400px;
+    border: 20px;
+    /* display: inline-block; */
+    
+}
+
+.box{
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid #1a1a1a 3px;
+    border-radius: 3px;
+    margin: 20px 30px 40px 50px;
+    width: fit-content;
+    cursor: pointer;
+    
+}
