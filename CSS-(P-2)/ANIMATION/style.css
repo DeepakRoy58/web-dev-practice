@@ -1,0 +1,97 @@
+.container{
+    width: 100vh;
+    height: 100vw;
+    background-color: #ff1919;
+    border:solid 3px black;
+
+}
+
+#circle{
+    height:100px;
+    width: 100px;
+    margin: 10px;
+    background-color: blue;
+    border: 2px solid rgb(200, 255, 0);
+    border-radius: 50px;
+    position: relative;
+    animation: 3s ease-in 1s 2 reverse both paused circleMoment;
+    top: 30%;
+    bottom: 40%;
+}
+
+@keyframes circleMoment {
+    0%{
+       top: 1%;
+       bottom: 5%;
+    }
+
+    30%{
+       top: 30%;
+       bottom: 40%;
+    }
+
+    60%{
+       top: 30%;
+    bottom: 40%;
+    }
+    
+    100%{
+       top: 30%;
+    bottom: 40%;
+    }
+}
+
+
+
+.box{
+    height:200px;
+    width: 350px;
+    margin: 200px;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: #002aff;
+    /* animation-name: moment;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    position: relative;
+    animation-timing-function:cubic-bezier(0.1,0.7,1.0,0.1) ;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running; */
+    animation: 3s ease-in 1s 2 reverse both paused leftMoment;
+}
+
+@keyframes leftMoment {
+  from{
+     top:0;
+     left:0;
+  }
+
+  to{
+    top:0;
+    left: 1200px;
+
+  }
+}
+  #box2{
+    height:200px;
+    width: 350px;
+    margin: 200px;
+    position: relative;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: #002aff;
+    animation: 3s ease-in 1s 2 reverse both paused rightMoment;
+  }
+
+  @keyframes rightMoment {
+  from{
+     top:800px;
+     left:0;
+  }
+
+  to{
+    top:10px;
+    left: 0px;
+
+  }
+}
+
