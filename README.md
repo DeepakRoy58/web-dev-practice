@@ -23,6 +23,10 @@ You can open `one.html` or any `.html` file with Live Server for quick previews.
 - HTML5
 - CSS3
 - VS Code
+- Java Script
+- NodeJS
+- React
+- Express
 
 ## 📚 Author
 **Deepak Roy**  
