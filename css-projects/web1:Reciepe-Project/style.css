@@ -8,20 +8,54 @@
    background: -moz-linear-gradient(90deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
    background: -webkit-linear-gradient(90deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#020344", endColorstr="#28B8D5", GradientType=1 );
-   
+   overflow-x: none;
 }
 
-nav{
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ul {
-    list-style-type: none;
-   
+#navList{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  min-height: 80px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navContainer{
+    width: 100vw;
+    background: #ff0000;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 234, 0, 1) 0%, rgb(255, 104, 104) 100%);
+    font-size: 1.8rem;
 
 }
 
-.navList{
-  
+#navLogo{
+    font-size: 2.0rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.Copyright{
+    width: 100vw;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentBox{
+    width: 70%;
+    
+}
