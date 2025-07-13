@@ -53,5 +53,8 @@
 
 button{
     color: rgb(255, 2, 6);
+    border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
 }
