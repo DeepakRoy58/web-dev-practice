@@ -28,19 +28,21 @@
 
 .navContainer{
     width: 100vw;
-    background: #ff0000;
+    /* background: #ff0000;
     background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 234, 0, 1) 0%, rgb(255, 104, 104) 100%);
+    font-size: 1.8rem; */
     font-size: 1.8rem;
-
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 #navLogo{
+    color: #fff;
     font-size: 2.0rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
@@ -53,12 +55,109 @@ a{
     justify-content: space-around;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
 }
 
 .contentBox{
+    margin: auto;
     width: 60%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    
+    flex-direction: column;
+    gap: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+nav{
+    height: 40px;
+}
+
+.item{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    color: #ffffff;
+    margin: 100px;
+}
+
+.rightbox img{
+    width: 200px;
+    height: 300px;
+    transition: all 0.3s ease-in-out 0.6s;
+    border-radius: 20px;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.leftbox h2{
+    font-size: 2rem;
+    color: #ffdd00;
+}
+
+.rightbox{
+    cursor: pointer;
+}
+
+.ingBox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.recBox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.leftbox{
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: underline; */
+}
+
+.rightbox:hover  {
+    transform: scale(1.2);
 
 }
+
+.rightbox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear 0s;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+}
+
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #504d4dbb;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: all 0.3s ease-in 0s;
+}
+
+.rightbox:hover .overlay{
+    opacity: 1;
+}
+
+
+
+.rightbox .overlay span{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.leftbox .headings{
+    text-decoration: underline;
+}
+
