@@ -1,0 +1,150 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #e67070;
+    background: linear-gradient(90deg, rgba(230, 112, 112, 1) 0%, rgba(9, 9, 121, 1) 45%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    background-color: #000000;
+    /* background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+    background-image: linear-gradient(to left bottom, #9700e9, #ff0091, #ff402d, #ffb400, #b0ff00);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+        width: 100%;
+        margin:-40px;
+        padding: 10px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+
+
+/* h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 20px;
+} */
+
+h2{
+    text-decoration: underline;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 10px;
+    height: 10px;
+    
+}
+
+.textBox h2,
+.textBox p {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#paymentBox{
+    width:300px;
+    height: 600px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 36, 145);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+}
+
+#amountBox{
+    width: 80%;
+    height: 10%;
+    margin: 20px;
+    background-color: #fff;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+#leftBox
+{
+    /* width: fit-content; */
+    display: flex;
+    align-items: center;
+}
+
+
+.cancelBox {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+
+.textamountBox p{
+    color: #000000;
+}
+
+#paymentBox:hover {
+    background-color: rgb(60, 60, 180);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+#amountBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.textamountBox {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#amountBox #leftBox img{
+    width: 80px;
+    margin-left: 5px;
+
+}
