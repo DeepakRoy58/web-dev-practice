@@ -24,8 +24,8 @@ body{
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#020344", endColorstr="#28B8D5", GradientType=1 );
     row-gap: 1.3rem;
     column-gap: 1.3rem;
-    grid-template-rows: repeat(4,1fr);
-    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(1,1fr);
     
 }
 
@@ -36,20 +36,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.3rem;
 }
 
-.footer , .header {
+@media (min-width:768px){
+
+    .container{
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
+    
+    }
+
+    .footer , .header {
     grid-column-start: 1;
     grid-column-end: 4;
-
+    background-color: #ae00ff;
 }
 
 .sidebar{
    grid-row-start: 2;
    grid-row-end: 4;
+   background-color: #ff00ae;
 }
 
 .content1{
     grid-column-start: 2;
     grid-column-end: 4;
+    background-color: #fff;
+}
+
+
 }
