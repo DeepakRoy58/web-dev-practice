@@ -136,3 +136,9 @@ body, html {
     font-size: 0.75rem;
     font-weight: 500;
 }
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
