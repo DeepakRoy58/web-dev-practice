@@ -203,3 +203,13 @@ a{
     height: auto;
     max-width: 100%;
 }
+
+@media (max-width: 500px) {
+    .container {
+        padding: 1rem 0.5rem;
+    }
+}
+
+html {
+    font-size: clamp(14px, 2vw, 18px);
+}
