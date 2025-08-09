@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+    display: grid;
+    gap: 1rem;
+    background-color: #000000;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 500px));
+
+}
+
+.items {
+    padding: 1rem;
+    border: 5px solid black;
+    background-color: #ffffff;
+    text-align: center;
+}
