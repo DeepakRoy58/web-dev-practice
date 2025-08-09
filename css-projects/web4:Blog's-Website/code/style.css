@@ -173,3 +173,27 @@ a{
     gap: 1.5rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 } */
+
+/* Mobile (up to 600px) */
+@media (max-width: 600px) {
+    .header_title {
+        font-size: 1.6rem;
+    }
+    .header_desc {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+    .card_image_container {
+        height: 160px;
+    }
+}
+
+/* Tablet (600px to 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .header_title {
+        font-size: 1.8rem;
+    }
+    .card_image_container {
+        height: 180px;
+    }
+}
