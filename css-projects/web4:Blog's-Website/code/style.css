@@ -197,3 +197,9 @@ a{
         height: 180px;
     }
 }
+
+.card_image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
