@@ -57,3 +57,37 @@ a img {
     color: var(--text-color);
     text-decoration: none;
 }
+
+.logo-icon {
+    /* size: 300%; */
+    height: 40px;
+    width: 80px;
+    
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: bold;
+   
+}
+
+.nav-link {
+     color: #7190d2;
+    transform: color 0.1s;
+}
+
+.nav-link:hover{
+    color: var(--link-color);
+}
+
+.Contact-Button{
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px ;
+    background-color: #0040ff;
+    color: #ffffff;
+    border-radius: 3px;
+    transform: all 0.1s;
+}
+
