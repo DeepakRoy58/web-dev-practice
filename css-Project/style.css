@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+    --primary-color : #6366f1
+    --accent-color  : #3f83f8
+    --text-color    : #333333 ;
+    --link-color: #2563eb ;
+    --background-color : #fff;
+    --light-gray : #f0f0f0;
+    --gray : #808080;
+    --dark-gray : #555;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' , sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+.logo-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; /* optional if you want to adjust text */
+     font-weight: 700; /* Bold */
+    font-size: 32px;
+    color: purple;
+}
+
+a img {
+    height: 40px; /* set desired height */
+    width: auto;  /* keeps proportions */
+}
+ 
+.header-content {
+    display: flex;
+    justify-content: space-between; /* space between logo, nav, button */
+    align-items: center;            /* vertically center everything */
+    padding: 10px 20px;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+}
