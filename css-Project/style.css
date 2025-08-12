@@ -255,4 +255,53 @@ a img {
      } */
 }
 
+/* COMPANY GRID  */
+
+.logo-txt {
+    color: rgb(27, 20, 20);
+    font-family: Inter , sans-serif;
+    font-weight: 500;
+
+}
+
+.company-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    /* border: 2px solid black; */
+    animation: slideFromLeft 1s ease forwards;
+}
+
+.companies-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3.4rem;
+    padding: 1rem;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 1.6rem;
+    margin-bottom: 10rem;
+    padding: 1.8rem 2.5rem;
+}
+
+.company-logo {
+    font-size: 1rem;
+    font-weight: 300;
+    color: lightgrey;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.svg-img {
+    height: 20px;
+
+}
+
+@media screen and (min-width: 640px){
+    .companies-grid {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
 
