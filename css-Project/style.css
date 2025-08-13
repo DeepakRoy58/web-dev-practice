@@ -27,6 +27,15 @@ body {
     background-color: var(--background-color);
 }
 
+.highlight-text{
+    background-color: #ca1ebf;
+    color: white;
+    padding: 1px 2px;
+    border-radius: 2px;
+    margin-right: 8px;
+    /* display: inline-block; */
+}
+
 /* 
 .header {
     border: solid 1px black;
