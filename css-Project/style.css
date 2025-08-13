@@ -281,7 +281,7 @@ a img {
     background-color: lightgray;
     border-radius: 10px;
     margin-top: 1.6rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
     padding: 1.8rem 2.5rem;
 }
 
@@ -306,64 +306,72 @@ a img {
 
 /*  CARD- LAYOUT -CONTAINER */
 
-.layout-container {
+/* .layout-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;    
 
-}
+} */
 
 /* .card-two {
     height: 30vh;
 } */
 
-.card-1, .card-2, .card-3 {
+/* .card-1, .card-2, .card-3 {
     background-color: #baa8a8;
     border-radius: 40px;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.card {
+/* .card {
     background-color: #a89e9e;
     border-radius: 20px;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.card img {
-    /* width: 100%; */
+/* .card img {
+    width: 100%;    
     border-radius: 20px;
     object-fit: cover;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .layout-container {
         grid-template-columns: 1fr;
     }
-}
+} */
 
-.layout-container {
+/* .layout-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-}
+} */
 
-.card {
+/* .card {
      background-color: #a59b9b;
     border-radius: 20px;  
     
-    overflow: hidden; /* makes image fit the card perfectly */
+    overflow: hidden;  makes image fit the card perfectly 
     margin: auto;
-}
+} */
 
-.card img {
+/* .card img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* fills container without stretching */
-    display: block;
+    object-fit: cover; fills container without stretching
+} */
+
+
+/* 3.CARD - CONTAINER  */
+
+.feature-container {
+    background-color: var(--light-gray);
+    padding: 30px 40px;
+    text-align: center;
 }
