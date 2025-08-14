@@ -30,11 +30,19 @@ body {
 .highlight-text{
     background-color: #ca1ebf;
     color: white;
+    position: relative;
     padding: 1px 2px;
     border-radius: 2px;
-    margin-right: 8px;
+    /* margin-right: 8px; */
     /* display: inline-block; */
+    animation: shimmer 2s infinite linear;
+    outline: none;
 }
+
+/* .highlight-text::selection{
+    background-color: #ca1ebf;
+    color: white;
+} */
 
 /* 
 .header {
@@ -488,4 +496,23 @@ a img {
         grid-template-columns: repeat(1,1fr);
         margin: 0 2rem;
     }
+}
+
+          /* 4.TESTIMONAL CSS */
+
+.testimonal-container {
+    background-color: var(--background-color);
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.testimonal-title {
+    font-size: 1.685rem;
+    font-weight: bold;
+}
+
+.testimonal-grid {
+    display: flex;
+    justify-content: center;
 }
