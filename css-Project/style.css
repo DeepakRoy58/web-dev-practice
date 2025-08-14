@@ -512,7 +512,45 @@ a img {
     font-weight: bold;
 }
 
-.testimonal-grid {
+.testimonal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    gap: 4rem;
+}
+
+/* .testimonal-grid {
     display: flex;
     justify-content: center;
+} */
+
+.testimonal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
+    justify-items: center;      /* centers each item in its cell */
+    justify-content: center;    /* centers the entire grid content */
+    gap: 2rem;
+}
+
+.avatar-img {
+    height: 2.3rem;
+    width:  2.3rem;
+}
+
+.testimonal-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 1.1rem;
+    transition: transform 0.3s ease , box-shadow  0.3s ease;
+}
+
+.testimonal-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    border: 1px solid blue;
 }
