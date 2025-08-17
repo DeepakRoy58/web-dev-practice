@@ -3,9 +3,8 @@ function printRoy () {
 }
 
 function learnWebDev(numOfHours) {
-    console.log(`learning JavaScript Basics in ${numOfHours} hours`)
+    console.log(`learning JavaScript Basics in ${numOfHours} hours`);
 }
 
 learnWebDev(4);
 printRoy() ;
-
