@@ -37,3 +37,21 @@ console.log(typeof a); //Reference error : as a is not defined
 console.log(typeof pi);//Reference error : as pi is not defined
 console.log(typeof c); // works because its an function-scope not an block-scope
 
+// Global-scope (using var)
+var x  =  20 ;   //globally scoped 
+
+function test() {
+    console.log(x); //accessible here
+}
+
+test() ;
+console.log(x) ; //also accessible here too
+
+//Function-scope (using var)
+function test() {
+    var y = "Deepak Roy";
+    console.log(y); //accessible here  
+}
+
+test() ;
+console.log(y); //reference error : as y  is not declared
