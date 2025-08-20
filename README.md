@@ -1,55 +1,73 @@
-# Web Dev
+🚀 Web Development Practice
 
-"Every expert was once a beginner. Every pro was once an amateur. Every icon was once an unknown." - Robin Sharma
+> *“Every expert was once a beginner. Every pro was once an amateur. Every icon was once an unknown.”* – Robin Sharma  
 
+This repository is my personal playground for mastering **Web Development** — from the very basics to advanced full-stack projects.  
 
-## 📁 Folder Structure
+---
 
-webdev-journey/
-├── .vscode/                   # VS Code settings
-├── Bootstrap/                 # Bootstrap learning projects
-├── CSS/                      # CSS fundamentals
-├── CSS-(P-2)/                # Advanced CSS projects
-├── css-Project/              # CSS practice projects
-├── css.projects/             # More CSS experiments
-├── excalidraw/               # Design and wireframes
-├── JAVASCRIPT/               # JavaScript learning
-├── my-tailwind4/             # Tailwind CSS projects
-├── NODE/                     # Node.js backend learning
-├── .gitignore               # Git ignore rules
-└── README.md                # This documentation journal
+This repository is my **personal documentation journal** as I learn and practice Web Development.  
+It’s a mix of notes, code snippets, mini-projects, and progress logs that reflect my growth over time.  
 
-## 🌐 Live Preview (Optional)
-You can open `one.html` or any `.html` file with Live Server for quick previews.
+---
 
-## 🚀 Technologies Used
-- HTML5
-- CSS3
-- VS Code
-- Java Script
-- NodeJS
-- React
-- Express
-
-HTML5 ████████████████████████████████ 100%
-CSS3  ██████████████████████████████   85%
-JavaScript ████████████████████         60%
-Bootstrap ████████████████              50%
-Tailwind CSS ████████████                40%
+## 📖 Table of Contents
+- [About This Journal](#-about-this-journal)
+- [Learning Roadmap](#-learning-roadmap)
+- [Projects & Experiments](#-projects--experiments)
+- [Resources & References](#-resources--references)
 
 
-Node.js ████████                        25%
-Git     ████████████████████████████     80%
-VS Code ████████████████████████████████ 100%
 
-##Resources & References
-Learning Platforms:
 
-MDN Web Docs
-freeCodeCamp
-JavaScript.info
-CSS-Tricks
+## 🛣 Learning Roadmap
+A structured breakdown of what I’m covering:
 
-## 📚 Author
-**Deepak Roy**  
+- **Phase 1: Foundations**
+  - HTML, CSS, Git & GitHub
+- **Phase 2: JavaScript Basics**
+  - DOM, Events, ES6+
+- **Phase 3: Advanced JavaScript**
+  - Async JS, Fetch API, Modules
+- **Phase 4: Frontend Framework**
+  - React.js (Components, Hooks, State Management)
+- **Phase 5: Backend Basics**
+  - Node.js, Express.js
+- **Phase 6: Database**
+  - MongoDB / SQL Basics
+- **Phase 7: Full-Stack Projects**
+  - MERN Stack Projects
 
+
+## 📚 Resources & References
+- [MDN Web Docs](https://developer.mozilla.org/)  
+- [freeCodeCamp](https://www.freecodecamp.org/)  
+- [Frontend Mentor](https://www.frontendmentor.io/)  
+- YouTube: Traversy Media, Fireship, Net Ninja  
+
+
+
+## 🔥 Live Preview  
+Open any `.html` file with **Live Server** to see instant results.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** HTML5, CSS3, Tailwind CSS, Bootstrap  
+- **Programming:** JavaScript (ES6+)  
+- **Backend:** Node.js, Express  
+- **Frameworks:** React  
+- **Tools:** VS Code, Git, Excalidraw  
+
+---
+
+
+## 📚 Resources  
+
+- [MDN Web Docs](https://developer.mozilla.org/)  
+- [FreeCodeCamp](https://www.freecodecamp.org/)  
+- [W3Schools](https://www.w3schools.com/)  
+- [JavaScript.info](https://javascript.info/)  
+
+---
