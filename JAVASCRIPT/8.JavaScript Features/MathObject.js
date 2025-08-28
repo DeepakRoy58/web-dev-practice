@@ -19,3 +19,16 @@ console.log(value1);
 
 //Output : 0.6931471805599453
 
+/* Math.LN10 */
+
+let value2 = Math.LN10;
+console.log(value2);
+
+//Output : 2.302585092994046
+
+/* Math.LOG2E
+ */
+let value3 = Math.LOG2E;
+console.log(value3);
+
+//Output : 1.4426950408889634
