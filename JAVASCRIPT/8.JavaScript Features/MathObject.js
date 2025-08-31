@@ -1,3 +1,5 @@
+// Constants/Static Properties
+
 /* Math.PI */
 
 let value = Math.PI;
@@ -32,3 +34,10 @@ let value3 = Math.LOG2E;
 console.log(value3);
 
 //Output : 1.4426950408889634
+
+// Math.LOG10E
+
+let value4 = Math.LOG10E;
+console.log(value4);
+
+//Output : 0.4342944819032518
