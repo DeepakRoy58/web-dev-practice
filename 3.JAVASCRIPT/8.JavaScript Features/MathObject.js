@@ -41,3 +41,6 @@ let value4 = Math.LOG10E;
 console.log(value4);
 
 //Output : 0.4342944819032518
+
+let value6= Math.LN20;
+console.log(value6);
