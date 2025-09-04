@@ -5,7 +5,7 @@
 // SYNTAX:
 
 // do {
-//     // code to be executed
+//     // logic code to be executed
 // } while (condition);
 
 //  The code block inside the "do" section is executed first.
