@@ -22,3 +22,36 @@ while(i <= 10){
 console.log(sum);
 
 // Output: 55
+
+let j = 0;
+
+while(j<5){
+    console.log("Inside the Loop ");
+
+    if(j==3){
+        break;
+    }
+    else {
+        console.log("Roy");
+        /* console.log(j); */
+        
+    }
+    j++
+}
+
+
+let k = 0;
+
+while(k<5){
+    console.log("Inside the Loop ");
+
+    if(k==3){
+        continue;
+    }
+    else {
+        console.log("Roy");
+        /* console.log(j); */
+        
+    }
+    j++
+}
