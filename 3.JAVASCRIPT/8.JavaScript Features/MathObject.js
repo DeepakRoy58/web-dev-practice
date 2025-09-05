@@ -44,3 +44,20 @@ console.log(value4);
 
 let value6= Math.LN20;
 console.log(value6);
+
+
+// Math.tan()
+// Math.tan(x) return the tangent of an angle 'x' in radians.
+
+// For example: Math.tan(45) = 1.6197751905438615
+let value7 = Math.tan(Math.PI/3);
+console.log(value7);
+//Output : 1.7320508075688767
+
+value7 = Math.tan(Math.PI/6);
+console.log(value7);
+//Output : 0.5773502691896257
+
+value7 = Math.tan(0);
+console.log(value7);
+//Output : 0
