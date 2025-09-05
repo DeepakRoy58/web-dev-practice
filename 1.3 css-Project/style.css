@@ -555,8 +555,8 @@ a img {
     border: 1px solid blue;
 }
 
-.testimonal-card:hover{
+/* .testimonal-card:hover{
     transform: matrix3d(30deg);
     /* box-sizing: content-box; */
-    
-}
+
+/*  }*/
