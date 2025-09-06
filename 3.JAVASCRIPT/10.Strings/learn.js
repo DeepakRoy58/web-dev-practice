@@ -19,4 +19,20 @@ console.log(op2.length);
 console.log(op1.toUpperCase());
 console.log(op2.toLowerCase());
 
+/* SubString */
+
+let str = "Deepak Roy";
+console.log(str.substring(0,5));
+console.log(str.substring(8));
+
+/* split() in a string */
+
+let storyLine = "Once Upon A Time";
+let splittedArray = storyLine.split("");
+let splittedArray1 = splittedArray.join(",");
+
+
+console.log(splittedArray);
+
+console.log(splittedArray1);
 
