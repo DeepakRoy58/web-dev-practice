@@ -6,4 +6,13 @@ function getAvg (a,b,c) {
 }
 
 let ans = getAvg(3,6,8) ;
-console.log(ans);
+console.log("Printing Average : " , ans);
+
+
+function userName(firstName, lastName) {
+    let fullName = lastName + " " + firstName;
+    return fullName ;
+}
+
+let fullName = userName("Roy" , "Deepak") ;
+console.log("user name was : " ,fullName);
